@@ -18,7 +18,20 @@ What take care:
 
 ![](architecture.png)
 
+## Download Amazon CLI
+
+aws.amazon.com/cli
+
+````
+aws configure
+
+//you will need both: AWS access key id and access secret key id
+
+````
+
 ## How to create a table in DynamoDB using Amazon CLI
+
+From the src directory, open new terminal and:
 
 - Create Table
 
@@ -34,6 +47,8 @@ aws dynamodb create-table \
     --provisioned-throughput \
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
+
+- To see the result: Aws -> Database -> DinamoDB -> Tables
 
 - Inssert Item
 
