@@ -14,6 +14,10 @@ What take care:
 
 - Eficient design - weight, format and velocity of data
 
+## Project Architecture 
+
+![](architecture.png)
+
 ## How to create a table in DynamoDB using Amazon CLI
 
 - Create Table
